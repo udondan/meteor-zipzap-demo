@@ -1,0 +1,59 @@
+@bootstrap3-less-root: "/packages/bootstrap3-less";
+@import "@{bootstrap3-less-root}/lib/less/mixins.import.less";
+@import "@{bootstrap3-less-root}/bootstrap.import.less";
+@import 'variables';
+@import 'mixins';
+
+
+@import 'font-awesome.import.less';
+
+html {
+  overflow-y:scroll; 
+}
+
+html, body {
+  height: 100%;
+  margin:0;
+  padding:0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+header {
+  text-align:center;
+  h1 {
+    margin:0;
+    padding:0;
+    padding-top:40px;
+    font-size:60px;
+  }
+}
+
+#content {
+  text-align: center;
+  overflow:auto;
+  padding-bottom:100px; /* this needs to be bigger than footer height*/
+}
+
+footer {
+  text-align:center;
+  vertical-align:bottom;
+  position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+}
+
+.browser-warning {
+  background: #BD3535;
+  color: #fff;
+  padding: 0.5em 0;
+  text-align: center;
+
+   a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}

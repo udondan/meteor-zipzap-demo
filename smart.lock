@@ -1,0 +1,47 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "bootstrap3-less": {},
+      "iron-router": {},
+      "handlebars-server": {
+        "git": "git@github.com:EventedMind/meteor-handlebars-server.git",
+        "branch": "master"
+      },
+      "bootstrap-slider": {},
+      "zipzap": {}
+    },
+    "packages": {
+      "bootstrap3-less": {
+        "git": "https://github.com/eprochasson/bootstrap3-less",
+        "tag": "v0.1.9",
+        "commit": "5c812c4d7ce72917a065f0424c3cf54e5ff2d16a"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "handlebars-server": {
+        "git": "git@github.com:EventedMind/meteor-handlebars-server.git",
+        "branch": "master",
+        "commit": "1b72c4e9d82af66293e50be4516c487d15d97464"
+      },
+      "bootstrap-slider": {
+        "git": "https://github.com/kidovate/meteor-bootstrap-slider.git",
+        "tag": "v0.0.4",
+        "commit": "47efbdd80c1f37f0caede1068c2976163ef18c32"
+      },
+      "zipzap": {
+        "git": "https://github.com/udondan/meteor-zipzap.git",
+        "tag": "v1.1.2",
+        "commit": "a5d33bf7057d6f67e179c3eb98e0788231a44819"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      }
+    }
+  }
+}

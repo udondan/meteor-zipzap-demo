@@ -1,0 +1,41 @@
+.button-style(@color; @background; @hover-background; @active-background; @disabled-background: #bdc3c7) {
+  color: @color;
+  background-color: @background;
+  border: none;
+  
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: ~"border .25s linear, color .25s linear, background-color .25s linear";
+  transition: ~"border .25s linear, color .25s linear, background-color .25s linear";
+  
+  &:hover,
+  &:focus {
+    outline: none;
+    color: @color;
+    background-color: @hover-background;
+    border-color: @hover-background;
+  }
+  
+  &:active,
+  &.active,
+  .btn-group.open &  {
+    background: @active-background;
+    border-color: @active-background;
+    box-shadow: none;
+  }
+  
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      background-color: @disabled-background;
+      border-color: @disabled-background;
+      color: black;
+      opacity: .7;
+      filter: "alpha(opacity=70)";
+    }
+  }
+}
