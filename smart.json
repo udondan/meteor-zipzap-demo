@@ -2,9 +2,7 @@
   "packages": {
     "bootstrap3-less": {},
     "iron-router": {},
-    "handlebars-server": {
-      "git": "git@github.com:EventedMind/meteor-handlebars-server.git"
-    },
+    "handlebars-server": {},
     "bootstrap-slider": {},
     "zipzap": {}
   }
