@@ -34,8 +34,8 @@
       },
       "zipzap": {
         "git": "https://github.com/udondan/meteor-zipzap.git",
-        "tag": "v1.1.2",
-        "commit": "a5d33bf7057d6f67e179c3eb98e0788231a44819"
+        "tag": "v1.1.3",
+        "commit": "fa715bfaf30e0439684dc73bf30c06648a7bcc1f"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
